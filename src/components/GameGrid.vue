@@ -3,7 +3,6 @@
 
     <div class="row ">
       <div class="col-4 bordered" v-for="box in boxes" :key="box.id">
-        
       </div>
     </div>
 
@@ -11,19 +10,24 @@
 </template>
 
 <script>
-import GridData from "@/data/GridData.js"
+import { GridData } from "@/data/GridData.js"
 
 export default {
   name: 'GameGrid',
   components: {},
   data: () => {
     return {
-      boxes: GridData,
+      boxes: GridData.label,
       id: GridData.id
     }
   },
   methods: {
-
+    setActive(id) {
+      return console.log(id);
+    },
+    isActive(id) {
+      return id == this.activeID;
+    }
   },
   computed: {
 
