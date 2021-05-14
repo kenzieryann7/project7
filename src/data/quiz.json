@@ -1,0 +1,52 @@
+[
+  {
+    "map" : "world",
+    "id": "US",
+    "label": "the United States of America"
+  },
+  {
+    "map" : "world",
+    "id": "middleEast",
+    "label": "the Middle East"
+  },
+  {
+    "map" : "middleeast",
+    "id": "eg",
+    "label": "Egypt"
+  },
+  {
+    "map" : "middleeast",
+    "id": "jo",
+    "label": "Jordan"
+  },
+  {
+    "map" : "middleeast",
+    "id": "sy",
+    "label": "Syria"
+  },
+  {
+    "map" : "middleeast",
+    "id": "lb",
+    "label": "Lebanon"
+  },
+  {
+    "map" : "middleeast",
+    "id": "il",
+    "label": "Israel"
+  },
+  {
+    "map": "israel",
+    "id": "GZ",
+    "label": "Gaza"
+  },
+  {
+    "map": "israel",
+    "id": "WB",
+    "label": "The West Bank"
+  },
+  {
+    "map": "israel",
+    "id": "JSR",
+    "label": "Jerusalem"
+  }
+]
